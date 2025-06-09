@@ -19,7 +19,7 @@ public class Conversion {
         System.out.println("Este es el menu primero\n 1.Temperatura\n 2.Longitud");
         Scanner primerMenu = new Scanner(System.in);
         
-        /*
+        
         switch(primerMenu){
             case 1:
                 System.out.println("\n 1.Celcius a farenheit \n 2. Celcius a Kelvin \n 3.farenheit a Celsius\n 4. Kevin a Celsius");
@@ -35,7 +35,7 @@ public class Conversion {
                 break;
         }
         
-        */
+        
         
 
 
