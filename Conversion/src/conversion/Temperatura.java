@@ -30,10 +30,11 @@ public class Temperatura {
     }
 
     public double fahrenheitToCelsius(float valorInsetado, float valorInsertado) {
-        return (valorInsertado - 32) * 5 / 9;
+        float resultado;
+        
+        resultado = (float) ((valorInsertado - 32)/1.8));
+        
+        return (resultado);
     }
 
-    public double kelvinToCelsius(float valorInsetado, float valorInsertado) {
-        return valorInsertado - 273.15;
-    }
 }
