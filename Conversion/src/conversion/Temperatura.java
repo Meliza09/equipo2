@@ -10,12 +10,23 @@ package conversion;
  */
 public class Temperatura {
     
-    public float celsiusToFahrenheit(float valorInsetado, float valorInsertado) {
-        return (valorInsertado * 9 / 5) + 32;
+    public float celsiusToFahrenheit(float valorInsertado) {
+        
+        
+        float resultado;
+        
+        resultado = (float) ((valorInsertado * 1.8) + 32.0);
+        
+        return (resultado);
     }
 
-    public double celsiusToKelvin(float valorInsetado, float valorInsertado) {
-        return valorInsertado + 273.15;
+    public double celsiusToKelvin(float valorInsertado) {
+        
+        float resultado;
+        
+        resultado = (valorInsertado);
+        
+        return (resultado);
     }
 
     public double fahrenheitToCelsius(float valorInsetado, float valorInsertado) {

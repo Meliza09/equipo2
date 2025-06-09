@@ -4,17 +4,21 @@ public class Longitud {
 
     public float kilometrosaMetros(float valorInsertado){
         
-//        valorInsertado
+    float resultado;
+    
+    resultado = valorInsertado/1000;
         
 
-        
-    return (0);
+    return (valorInsertado);
         
         
     }
     
     
     public float centrimetros(float valorInsertado){
+        float resultado;
+        
+        resultado = valorInsertado/100;
         
       return 0;
 }
